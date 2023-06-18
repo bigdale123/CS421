@@ -1,0 +1,82 @@
+
+/* Nav Bar Stuff */
+.list-navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #212529;
+    /* logic to make navbar sticky */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.list-item-navbar {
+    float: left;
+}
+
+.list-item-site-name {
+    float: right;
+    color: #F8F9FA;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.list-item-navbar a{
+    display: block;
+    color: #F8F9FA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list-item-navbar a:hover {
+    background-color: #495057;
+}
+
+#active a {
+    background-color: #ADB5BD;
+    color: #212529
+}
+
+#active a:hover {
+    background-color: #495057;
+    color: #F8F9FA
+}
+
+
+/* Page Formatting */
+body {
+    background-color: #F8F9FA;
+    padding-top: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile {
+    border-radius: 8px;
+    float: right;   
+}
+
+.left-justified-text {
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+.pdf-style {
+    padding-top: 10px;
+    width: 100%;
+    height: 1000px;
+}
+
+.portfolio-text {
+    padding-left: 20px;
+    padding-top: 200px;
+}
+
+.contact-text {
+    padding-left: 20px;
+}
+
+.list-nobullet {
+    list-style-type: none;
+}
