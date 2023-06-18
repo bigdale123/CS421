@@ -1,0 +1,17 @@
+.border_whitetext_redback {
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.border_redtext {
+    color: red;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.regularborder {
+    text-align: center;
+    border: 2px solid black;
+}
