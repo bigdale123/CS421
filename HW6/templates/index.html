@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <h1>TriOpNET Signup Page</h1>
+    <p>All you need to do is make a password. Don't worry, we know who you are.</p>
+    <i>Your password must meet the following requirements:</i>
+    <ul>
+        <li><i>Be at least 8 characters long.</i></li>
+        <li><i>Contain a lowercase character.</i></li>
+        <li><i>Contain a uppercase character.</i></li>
+        <li><i>Must end in a number.</i></li>
+    </ul>
+    <form action="{{url_for('report')}}">
+        <label for="pass">Password:</label>
+        <input type="password" name="pass">
+        <input type="submit" value="Sign Up">
+    </form>
+</div>
+{% endblock %}
